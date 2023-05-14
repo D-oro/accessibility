@@ -1,10 +1,9 @@
 .code-wrapper{
     display: flex;
-    background-color: aliceblue;
     padding-top: 3rem;
 }
 
 .code-content-wrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }

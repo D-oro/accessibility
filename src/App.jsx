@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/accessibility" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/code" element={<Code />} />
         <Route path="/resources" element={<Resources />} />
       </Routes>

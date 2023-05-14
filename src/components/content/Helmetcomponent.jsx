@@ -3,7 +3,7 @@ import './Content.css';
 
 function Helmetcomponent() {
   return (
-    <div id="section-2" className="content-wrapper">
+    <div id="section-3" className="content-wrapper">
     <h1>Helmets</h1>
         <p>
         Helmets are perhaps the easiest accessibility trick out there!

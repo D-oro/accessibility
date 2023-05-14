@@ -1,9 +1,7 @@
 .sidenav-wrapper{
-    background-color: yellow;
     height: 95vh;
     margin: 0;
     position: fixed;
-    width: 6rem;
 }
 
 .sidenav-wrapper nav{
@@ -13,15 +11,15 @@
 }
 
 .sidenav-wrapper ul{
-    align-items: center;
-    background-color: aquamarine;
+    align-items: flex-start;
+    background-color: silver;
     display: flex;
     flex-direction: column;
-    gap: 3%;
+    gap: 5%;
     height: 100%;
     margin: 0;
     padding: 1.5rem;
-    width: 100%;
+    width: 7rem;
 }
 
 .sidenav-wrapper li{
@@ -29,9 +27,13 @@
     margin: 0;
 }
 
+.sidenav-wrapper li a:hover{
+    background-color: lightgray;
+}
+
 .sidenav-wrapper a{
-    background-color: yellow;
+    background-color: gainsboro;
     text-decoration: none;
     font-size: 1.2rem;
-    padding: .2rem;
+    padding: .4rem;
   }

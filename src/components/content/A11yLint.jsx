@@ -3,7 +3,7 @@ import './Content.css';
 
 function A11yLint() {
   return (
-    <div id="section-1" className="content-wrapper">
+    <div id="section-2" className="content-wrapper">
         <h1>A11y EsLint</h1>
         <p>
         There is a great eslint tool for React applications to check for accessibility as you code.

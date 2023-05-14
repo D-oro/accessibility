@@ -6,7 +6,7 @@ function Navigation() {
     return (
         <nav className="nav-wrapper" aria-label="Main">
             <ul>
-                <CustomLink to="/accessibility">Home</CustomLink>
+                <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/code">Code</CustomLink>
                 <CustomLink to="/resources">Resources</CustomLink>
             </ul>

@@ -4,6 +4,7 @@ import './Code.css';
 import Sidenav from '../sidenav/Sidenav';
 import A11yLint from '../content/A11yLint';
 import Helmetcomponent from '../content/Helmetcomponent';
+import Intro from '../content/Intro';
 
 function Code() {
     return (
@@ -15,8 +16,9 @@ function Code() {
             </Helmet>
             <Sidenav />
             <span className="code-content-wrapper">
-            <Helmetcomponent />
+            <Intro />
             <A11yLint />
+            <Helmetcomponent />
             </span>
             <br />
         </div>
